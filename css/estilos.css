@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 5px 0 5px;
+    background-color: black;
+}
+
+header nav {
+    display: none;
+}
+header i {
+    font-size: 2rem;
+    color: white;
+}
+header img {
+    margin-right: calc(50% - 44.15px); 
+    height: 50px;
+}
+#sessao-principal figure img {
+width: 80%;
+} 
